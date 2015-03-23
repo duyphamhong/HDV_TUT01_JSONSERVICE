@@ -10,6 +10,11 @@ namespace HDV.Tutorials.JsonService
     {
         static void Main(string[] args)
         {
+            Service.Current.Start();
+            while (true)
+            {
+
+            }
         }
     }
 }
